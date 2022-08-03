@@ -10,7 +10,7 @@
   --grey-dark: hsl(0deg, 0%, 30%);
   --grey-medium: hsl(0deg, 0%, 40%);
   --grey-light: hsl(0deg, 0%, 60%);
-  --grey-white: hsl(0deg, 0%, 100%);
+  --white: hsl(0deg, 0%, 100%);
 }
 
 html,
@@ -37,7 +37,7 @@ main {
 }
 
 section {
-  background-color: var(--grey-white);
+  background-color: var(--white);
   border-bottom: 6px solid var(--grey-medium);
 }
 
